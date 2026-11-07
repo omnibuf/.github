@@ -27,16 +27,22 @@ Every nested sub-message and map entry carries an exact 4-byte byte length (`Wir
 | :--- | :--- | :--- |
 | [**`omnibuf/omnibuf-go`**](https://github.com/omnibuf/omnibuf-go) | Go implementation, `wire` primitives, and `protoc` / `buf` code generator | `github.com/omnibuf/omnibuf-go` · `protoc-gen-omnibuf` |
 | [**`omnibuf/omnibuf-es`**](https://github.com/omnibuf/omnibuf-es) | TypeScript & JavaScript implementation for Node.js, browsers, and edge workers | `@omnibuf/core` · `@omnibuf/node` · `@omnibuf/web` · `@omnibuf/protoc-gen-omnibuf-es` |
-| [**`omnibuf/omnibuf-cli`**](https://github.com/omnibuf/omnibuf-cli) | `jq`-style CLI for encoding, decoding, querying, and conformance-testing OmniBuf packets | `omnibuf` ([GitHub Releases](https://github.com/omnibuf/omnibuf-cli/releases)) |
+| [**`omnibuf/omnibuf-cli`**](https://github.com/omnibuf/omnibuf-cli) | `jq`-style CLI for encoding, decoding, querying, and conformance-testing OmniBuf packets | `brew install omnibuf/tap/omnibuf` · `omnibuf` |
+| [**`omnibuf/homebrew-tap`**](https://github.com/omnibuf/homebrew-tap) | Official Homebrew formulas for `omnibuf` and `protoc-gen-omnibuf` | `omnibuf/tap` |
 | [**`omnibuf/omnibuf.com`**](https://github.com/omnibuf/omnibuf.com) | Documentation website, interactive benchmarks, and v0.1 wire format specification | [omnibuf.com](https://omnibuf.com) |
 
 ## Quickstart
 
 ### CLI (`omnibuf`)
 
-Pipe JSON in to produce self-describing `.obuf` wire bytes, or query `.obuf` packets directly using `jq` expressions:
+Install via Homebrew, `mise`, or the one-line installer, then pipe JSON or `.obuf` packets through `omnibuf`:
 
 ```bash
+# Install
+brew install omnibuf/tap/omnibuf
+# or: curl -fsSL https://omnibuf.com/install.sh | sh
+# or: mise use -g ubi:omnibuf/omnibuf-cli[exe=omnibuf]
+
 # Encode JSON -> self-describing OmniBuf wire bytes (Field #0 SchemaMeta included automatically)
 omnibuf < event.json > event.obuf
 
