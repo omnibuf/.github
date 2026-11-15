@@ -22,13 +22,13 @@ OmniBuf pairs trailing-zero Prefix-Varints with 16 explicit wire types, packed t
 
 | Repository | Description |
 | :--- | :--- |
-| [**`omnibuf/omnibuf-go`**](https://github.com/omnibuf/omnibuf-go) | Go runtime and `buf` plugin |
+| [**`omnibuf/omnibuf-go`**](https://github.com/omnibuf/omnibuf-go) | Go runtime |
 | [**`omnibuf/omnibuf-es`**](https://github.com/omnibuf/omnibuf-es) | TypeScript & JavaScript runtime |
-| [**`omnibuf/omnibuf-rs`**](https://github.com/omnibuf/omnibuf-rs) | Rust runtime and `#[derive]` macros |
-| [**`omnibuf/omnibuf-py`**](https://github.com/omnibuf/omnibuf-py) | Python 3.11+ C-extension runtime |
-| [**`omnibuf/omnibuf-cpp`**](https://github.com/omnibuf/omnibuf-cpp) | Header-only C++20 runtime |
-| [**`omnibuf/omnibuf-java`**](https://github.com/omnibuf/omnibuf-java) | Java 21 runtime and `buf` plugin |
-| [**`omnibuf/omnibuf-cs`**](https://github.com/omnibuf/omnibuf-cs) | C# / .NET 8 `Span` runtime |
+| [**`omnibuf/omnibuf-rs`**](https://github.com/omnibuf/omnibuf-rs) | Rust runtime |
+| [**`omnibuf/omnibuf-py`**](https://github.com/omnibuf/omnibuf-py) | Python runtime |
+| [**`omnibuf/omnibuf-cpp`**](https://github.com/omnibuf/omnibuf-cpp) | C++ runtime |
+| [**`omnibuf/omnibuf-java`**](https://github.com/omnibuf/omnibuf-java) | Java runtime |
+| [**`omnibuf/omnibuf-cs`**](https://github.com/omnibuf/omnibuf-cs) | C# / .NET runtime |
 
 ## Tooling
 
