@@ -35,6 +35,8 @@ OmniBuf pairs trailing-zero Prefix-Varints with 16 explicit wire types, packed t
 | Repository | Description |
 | :--- | :--- |
 | [**`omnibuf/omnibuf-cli`**](https://github.com/omnibuf/omnibuf-cli) | `jq`-style CLI for OmniBuf packets |
+| [**`omnibuf/omnibuf-vscode`**](https://github.com/omnibuf/omnibuf-vscode) | VS Code extension for viewing and editing `.obuf` files as JSON and hex |
+| [**`omnibuf/omnibuf-vim`**](https://github.com/omnibuf/omnibuf-vim) | Vim & Neovim plugin for viewing and editing `.obuf` files as JSON and hex |
 | [**`omnibuf/homebrew-tap`**](https://github.com/omnibuf/homebrew-tap) | Homebrew formulas |
 | [**`omnibuf/omnibuf.com`**](https://github.com/omnibuf/omnibuf.com) | Docs, benchmarks, and wire spec |
 
