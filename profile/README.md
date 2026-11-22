@@ -27,8 +27,12 @@ OmniBuf pairs trailing-zero Prefix-Varints with 16 explicit wire types, packed t
 | [**`omnibuf/omnibuf-rs`**](https://github.com/omnibuf/omnibuf-rs) | Rust runtime |
 | [**`omnibuf/omnibuf-py`**](https://github.com/omnibuf/omnibuf-py) | Python runtime |
 | [**`omnibuf/omnibuf-cpp`**](https://github.com/omnibuf/omnibuf-cpp) | C++ runtime |
-| [**`omnibuf/omnibuf-java`**](https://github.com/omnibuf/omnibuf-java) | Java runtime |
+| [**`omnibuf/omnibuf-java`**](https://github.com/omnibuf/omnibuf-java) | Java & Kotlin runtime |
 | [**`omnibuf/omnibuf-cs`**](https://github.com/omnibuf/omnibuf-cs) | C# / .NET runtime |
+| [**`omnibuf/omnibuf-swift`**](https://github.com/omnibuf/omnibuf-swift) | Swift runtime |
+| [**`omnibuf/omnibuf-dart`**](https://github.com/omnibuf/omnibuf-dart) | Dart runtime |
+| [**`omnibuf/omnibuf-php`**](https://github.com/omnibuf/omnibuf-php) | PHP runtime |
+| [**`omnibuf/omnibuf-elixir`**](https://github.com/omnibuf/omnibuf-elixir) | Elixir runtime |
 
 ## Tooling
 
