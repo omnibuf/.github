@@ -1,5 +1,13 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:recommended"],
-  "assignees": ["sudorandom"]
+  "assignees": ["sudorandom"],
+  "packageRules": [
+    {
+      "matchPackageNames": ["*"],
+      "groupName": "{{manager}} dependencies",
+      "groupSlug": "{{manager}}",
+      "separateMajorMinor": false
+    }
+  ]
 }
