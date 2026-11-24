@@ -2,12 +2,19 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:recommended"],
   "assignees": ["sudorandom"],
+  "semanticCommits": "enabled",
+  "minimumReleaseAge": "1 day",
   "packageRules": [
     {
       "matchPackageNames": ["*"],
+      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
       "groupName": "{{manager}} dependencies",
-      "groupSlug": "{{manager}}",
-      "separateMajorMinor": false
+      "groupSlug": "{{manager}}"
+    },
+    {
+      "matchManagers": ["npm"],
+      "matchPackageNames": ["typescript"],
+      "allowedVersions": "<7.0.0"
     }
   ]
 }
