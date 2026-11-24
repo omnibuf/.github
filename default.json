@@ -4,6 +4,8 @@
   "assignees": ["sudorandom"],
   "semanticCommits": "enabled",
   "minimumReleaseAge": "1 day",
+  "automerge": true,
+  "platformAutomerge": false,
   "packageRules": [
     {
       "matchPackageNames": ["*"],
