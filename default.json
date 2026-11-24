@@ -4,14 +4,14 @@
   "assignees": ["sudorandom"],
   "semanticCommits": "enabled",
   "minimumReleaseAge": "1 day",
-  "automerge": true,
   "platformAutomerge": false,
   "packageRules": [
     {
       "matchPackageNames": ["*"],
       "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
       "groupName": "{{manager}} dependencies",
-      "groupSlug": "{{manager}}"
+      "groupSlug": "{{manager}}",
+      "automerge": true
     },
     {
       "matchManagers": ["npm"],
