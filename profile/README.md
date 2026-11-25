@@ -33,12 +33,14 @@ OmniBuf pairs trailing-zero Prefix-Varints with 16 explicit wire types, packed t
 | [**`omnibuf/omnibuf-dart`**](https://github.com/omnibuf/omnibuf-dart) | Dart runtime |
 | [**`omnibuf/omnibuf-php`**](https://github.com/omnibuf/omnibuf-php) | PHP runtime |
 | [**`omnibuf/omnibuf-elixir`**](https://github.com/omnibuf/omnibuf-elixir) | Elixir runtime |
+| [**`omnibuf/omnibuf-nano`**](https://github.com/omnibuf/omnibuf-nano) | Zero-malloc C99 runtime for embedded targets |
 
 ## Tooling
 
 | Repository | Description |
 | :--- | :--- |
 | [**`omnibuf/omnibuf-cli`**](https://github.com/omnibuf/omnibuf-cli) | `jq`-style CLI for OmniBuf packets |
+| [**`omnibuf/omnibuf-devtools`**](https://github.com/omnibuf/omnibuf-devtools) | Browser DevTools extension for inspecting OmniBuf HTTP, ConnectRPC, and gRPC-Web traffic |
 | [**`omnibuf/omnibuf-vscode`**](https://github.com/omnibuf/omnibuf-vscode) | VS Code extension for viewing and editing `.obuf` files as JSON and hex |
 | [**`omnibuf/omnibuf-vim`**](https://github.com/omnibuf/omnibuf-vim) | Vim & Neovim plugin for viewing and editing `.obuf` files as JSON and hex |
 | [**`omnibuf/homebrew-tap`**](https://github.com/omnibuf/homebrew-tap) | Homebrew formulas |
