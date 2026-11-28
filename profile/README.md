@@ -14,6 +14,12 @@
   <a href="https://omnibuf.com/cli">CLI</a>
 </p>
 
+<p align="center">
+  <a href="https://omnibuf.com"><img src="https://img.shields.io/badge/website-omnibuf.com-111111?style=flat&labelColor=111111&color=D4FF33" alt="Website" /></a>
+  <a href="https://omnibuf.com/spec"><img src="https://img.shields.io/badge/OmniBuf%20Spec-v1%20DRAFT--1-FF4F18" alt="OmniBuf Spec: v1 DRAFT-1" /></a>
+  <a href="https://github.com/omnibuf/.github/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-Apache--2.0-blue.svg" alt="License: Apache-2.0" /></a>
+</p>
+
 ---
 
 OmniBuf pairs trailing-zero Prefix-Varints with 16 explicit wire types, packed typed arrays, and length-prefixed containers. Proxies and services read or splice individual fields in place. Optional `Field #0` metadata makes raw packets readable as JSON on their own.
